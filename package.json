@@ -1,0 +1,30 @@
+{
+  "name": "newflows",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack project and task management application with Jira-style boards.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "server:start": "node server/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.14.0",
+    "next": "^14.2.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
